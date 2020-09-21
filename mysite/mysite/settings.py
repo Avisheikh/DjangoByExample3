@@ -120,6 +120,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'np03a170233@heraldcollege.edu.np'
+EMAIL_HOST_USER = 'djangomailtest33@gmail.com' 
+EMAIL_HOST_PASSWORD = 'dj@ngoabishek21'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
+
